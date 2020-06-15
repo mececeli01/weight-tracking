@@ -14,7 +14,7 @@ import com.creativeminds.weighttrackingapp.viewmodel.HomeViewModel
 
 class HomeFragment : Fragment(), View.OnClickListener {
 
-    lateinit var navigationController: NavController
+    private lateinit var navigationController: NavController
 
     private lateinit var viewModel: HomeViewModel
 
